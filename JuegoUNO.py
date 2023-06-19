@@ -145,13 +145,7 @@ def agarrar_cartas(mazo, jugador_color, jugador_tipo, medio, todos_los_colores, 
                         print(Fore.BLUE + Style.NORMAL +"|"+"_"*2+"|",end="  ")
                     imprimir_blanco()
                         
-                    if cant_sumar == 1:    
-                        #resp=ingresa_valida("¿Desea tirar esta carta al pozo?(si/no): ", "\nPor favor, responda con sí o no.", "SI", "NO")
-                        #if resp == "SI":
-                        #    pos=len(jugador_tipo)-1
-                        #    confirma_tiro = validar_tirada(pos, jugador_color, jugador_tipo, medio, todos_los_colores, todos_los_tipos, mazo, cant_sumar, 1)
-                        #    return confirma_tiro
-                        #else:
+                    if cant_sumar == 1:
                         print("\nSi agarra una carta no puede tirar, se saltea el turno")
                         confirma_tiro = 0
                         return confirma_tiro
@@ -184,13 +178,7 @@ def agarrar_cartas(mazo, jugador_color, jugador_tipo, medio, todos_los_colores, 
                         print(Fore.BLUE + Style.NORMAL +"|"+"_"*2+"|",end="  ")
                     imprimir_blanco()
                         
-                    if cant_sumar == 1:    
-                        #resp=ingresa_valida("¿Desea tirar esta carta al pozo?(si/no): ", "\nPor favor, responda con sí o no.", "SI", "NO")
-                        #if resp == "SI":
-                        #    pos=len(jugador_tipo)-1
-                        #    confirma_tiro = validar_tirada(pos, jugador_color, jugador_tipo, medio, todos_los_colores, todos_los_tipos, mazo, cant_sumar, 1)
-                        #    return confirma_tiro
-                        #else:
+                    if cant_sumar == 1:
                         print("\nSi agarra una carta no puede tirar, se saltea el turno")
                         confirma_tiro = 0
                         return confirma_tiro
