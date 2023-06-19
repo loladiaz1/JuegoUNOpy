@@ -1,4 +1,4 @@
-# Kleinübing Germán, Díaz Lola
+# Proyecto llevado a cabo por: Kleinübing Germán, Díaz Lola
 import random
 from colorama import init, Fore, Style
 
