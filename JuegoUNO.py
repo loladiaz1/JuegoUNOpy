@@ -1,4 +1,4 @@
-# Kleinübing Germán, Salemme Christian, Díaz Lola, García Pilar
+# Kleinübing Germán, Díaz Lola
 import random
 from colorama import init, Fore, Style
 
